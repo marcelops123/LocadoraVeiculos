@@ -6,7 +6,6 @@ public abstract class Cliente {
 	private String telefone;
 	
 	public Cliente() {
-		super();
 	}
 	
 	public Cliente(String nome, String endereco, String telefone) {

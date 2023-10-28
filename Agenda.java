@@ -1,16 +1,19 @@
 package principal;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Agenda {
 	private ArrayList<Locacao> locacoes;
 
 	public Agenda(ArrayList<Locacao> locacoes) {
-		return;
+		super();
+		
+		
+		this.locacoes = locacoes;
 	}
 
-	public void Agendar() {
+
+	/*public void Agendar() {
 		return;
 	}
 
@@ -32,5 +35,5 @@ public class Agenda {
 
 	public void relatorioVeiculosAlocadosEmAtraso() {
 		return;
-	}
+	}*/
 }

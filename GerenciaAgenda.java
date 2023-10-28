@@ -2,17 +2,39 @@ package principal;
 
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.time.LocalDate;
 
-public class GerenciaAgenda {
+public class GerenciaAgenda extends Locacao{
     private ArrayList<Locacao> locacoes;
+    private Scanner lerN,lerS;
 
-    public GerenciaAgenda(ArrayList<Locacao> locacoes) {
-        this.lerS = new Scanner(System.in);
+    ArrayList<Cliente> clientes = new ArrayList<>();
+	ArrayList<Carro> carros = new ArrayList<>();
+	ArrayList<Caminhao> caminhoes = new ArrayList<>();
+	
+	Cliente gm = new Cliente(clientes);
+	
+	int op, opMoto, opCarro, opCami;
+    
+    
+    
+    public GerenciaAgenda(Cliente cliente, ArrayList <Veiculo> veiculos, ArrayList<Locacao> locacoes, LocalDate dataInicio, LocalDate dataPrevistaDevolucao, LocalDate dataDevolucao, double preco,
+    		double multa, int status) {
+        super(cliente, veiculos, dataInicio,dataPrevistaDevolucao,dataDevolucao,preco,multa,status);
+    	this.lerS = new Scanner(System.in);
         this.lerN = new Scanner(System.in);
         this.locacoes = locacoes;
     }
+    
+    
 
     public void Agendar() {
+    	if(clientes.)
+    	
+    	
+    	
+    	
+    	
         System.out.println("Agendamento efetuado com sucesso.");
 
     }

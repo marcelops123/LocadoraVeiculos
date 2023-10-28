@@ -5,7 +5,8 @@ import java.util.ArrayList;
 
 public class GerenciaCaixa {
     private ArrayList<Locacao> locacoes;
-
+    private Scanner lerS,lerN;
+    
     public GerenciaCaixa(ArrayList<Locacao> locacoes) {
         this.lerS = new Scanner(System.in);
         this.lerN = new Scanner(System.in);
