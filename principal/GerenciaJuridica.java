@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GerenciaJuridica {
-	private Scanner lerN,lerS;
 	private ArrayList<Juridica> juridicas;
+	Scanner lerS = new Scanner(System.in);
+	Scanner lerN = new Scanner(System.in);
+
+	public GerenciaJuridica() {
+	}
 	
-	public GerenciaJuridica(Scanner lerN, Scanner lerS, ArrayList<Juridica> juridicas) {
+	public GerenciaJuridica(ArrayList<Juridica> juridicas) {
 		super();
-		this.lerN = lerN;
-		this.lerS = lerS;
 		this.juridicas = juridicas;
 	}
 	

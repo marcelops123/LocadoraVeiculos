@@ -4,10 +4,10 @@ public abstract class Cliente {
 	private String nome;
 	private String endereco;
 	private String telefone;
-	
+
 	public Cliente() {
 	}
-	
+
 	public Cliente(String nome, String endereco, String telefone) {
 		super();
 		this.nome = nome;
@@ -38,7 +38,5 @@ public abstract class Cliente {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	
-	
-	
+
 }

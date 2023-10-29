@@ -5,15 +5,19 @@ import java.util.ArrayList;
 
 public class GerenciaCaixa {
     private ArrayList<Locacao> locacoes;
+    private ArrayList<Caixa> caixa;
     private Scanner lerS,lerN;
     
-    public GerenciaCaixa(ArrayList<Locacao> locacoes) {
-        this.lerS = new Scanner(System.in);
-        this.lerN = new Scanner(System.in);
-        this.locacoes = locacoes;
-    }
+    
 
-    public void pagamentoLocacao() {
+    public GerenciaCaixa(Caixa caixa) {
+		super();
+		this.locacoes = locacoes;
+		this.lerS = lerS;
+		this.lerN = lerN;
+	}
+
+	public void pagamentoLocacao() {
         System.out.println("Agendamento efetuado com sucesso.");
 
     }
