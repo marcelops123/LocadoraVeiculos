@@ -198,7 +198,7 @@ public class Principal {
                         escolha_locacao = scanner.nextInt();
                         switch (escolha_locacao) {
                             case 1:
-                                gerAgenda.Agendar();
+                                gerAgenda.Agendar(fisicas);
                                 break;
                             case 2:
                                 gerAgenda.Alterar();
